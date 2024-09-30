@@ -537,6 +537,19 @@ h1 {
     }
 }
 
+.contact .contact__form-field {
+    position: relative;
+}
+
+.contact .error-message {
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    width: 100%;
+    font-size: 14px;
+    color: #ff7c66;
+}
+
 .error-message {
     font-size: 14px;
     color: #ff7c66;

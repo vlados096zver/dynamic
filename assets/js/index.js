@@ -270,3 +270,18 @@ var swiper = new Swiper(".swiper-container", {
         }
     }
 });
+
+const passwordInput = document.getElementById('password');
+const toggleIcon = document.querySelector('.form__field .form__field-input img');
+
+toggleIcon.addEventListener('mousedown', function () {
+    passwordInput.setAttribute('type', 'text');
+});
+
+toggleIcon.addEventListener('mouseup', function () {
+    passwordInput.setAttribute('type', 'password');
+});
+
+toggleIcon.addEventListener('mouseleave', function () {
+    passwordInput.setAttribute('type', 'password');
+});
