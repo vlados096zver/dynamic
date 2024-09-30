@@ -1,4 +1,8 @@
-
+document.addEventListener("DOMContentLoaded", function () {
+  AOS.init({
+    duration: 600,
+  })
+})
 
 // modal
 
