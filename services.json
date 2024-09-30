@@ -1,0 +1,163 @@
+[
+    {
+        "id": 1,
+        "name": "Web Development",
+        "step": "01",
+        "text": "Our web development courses cover a wide range of skills, from HTML and CSS to advanced JavaScript frameworks. With hands-on projects and a focus on best practices, you’ll be prepared to build responsive and dynamic websites that meet modern standards.",
+        "button": "Details",
+        "technologies": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "programs": [
+            {
+                "name": "Digital Marketing",
+                "weeks": 2,
+                "Topics": [
+                    "SEO",
+                    "Content Marketing",
+                    "Social Media"
+                ],
+                "technologies": [
+                    "Google Analytics",
+                    "Facebook Ads",
+                    "Email Marketing"
+                ],
+                "Outcome": "Learn to create effective digital marketing campaigns."
+            },
+            {
+                "name": "Graphic Design",
+                "weeks": 3,
+                "Topics": [
+                    "Photoshop",
+                    "Illustrator",
+                    "Figma"
+                ],
+                "technologies": [
+                    "Photoshop",
+                    "Illustrator",
+                    "Figma"
+                ],
+                "Outcome": "Gain skills in creating visual content."
+            },
+            {
+                "name": "Data Science",
+                "weeks": 4,
+                "Topics": [
+                    "Python",
+                    "Machine Learning",
+                    "Data Analysis"
+                ],
+                "technologies": [
+                    "Python",
+                    "R",
+                    "SQL"
+                ],
+                "Outcome": "Become proficient in data analysis and modeling."
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Data Science",
+        "step": "02",
+        "text": "Master the art of data analysis and visualization using Python and R. Unlock insights from data to drive decision-making. This program covers data manipulation, statistical analysis, and machine learning techniques.",
+        "button": "Details",
+        "technologies": [
+            "Python",
+            "R",
+            "SQL"
+        ],
+        "programs": [
+            {
+                "name": "Introduction to Data Science",
+                "weeks": 4,
+                "Topics": [
+                    "Statistics",
+                    "Data Visualization",
+                    "Machine Learning"
+                ],
+                "technologies": [
+                    "Python",
+                    "Pandas",
+                    "Matplotlib"
+                ],
+                "Outcome": "Understand basic data science principles and techniques."
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Cybersecurity",
+        "step": "03",
+        "text": "In an increasingly digital world, understanding cybersecurity is essential. Our courses teach you how to protect information systems from cyber threats. You’ll learn about risk management, network security, and ethical hacking.",
+        "button": "Details",
+        "technologies": [
+            "Network Security",
+            "Ethical Hacking",
+            "Incident Response"
+        ],
+        "programs": [
+            {
+                "name": "Certified Ethical Hacker",
+                "weeks": 6,
+                "Topics": [
+                    "Penetration Testing",
+                    "Vulnerability Assessment",
+                    "Network Defense"
+                ],
+                "technologies": [
+                    "Kali Linux",
+                    "Wireshark",
+                    "Metasploit"
+                ],
+                "Outcome": "Prepare for a career in ethical hacking and cybersecurity."
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Digital Marketing",
+        "step": "04",
+        "text": "Digital marketing is crucial in today's business landscape. Our courses cover everything from SEO and content creation to social media marketing and analytics. Learn how to effectively engage customers online and measure campaign success.",
+        "button": "Details",
+        "technologies": [
+            "SEO",
+            "Content Marketing",
+            "Social Media Advertising"
+        ],
+        "programs": [
+            {
+                "name": "Social Media Marketing",
+                "weeks": 3,
+                "Topics": [
+                    "Facebook Ads",
+                    "Instagram Strategies",
+                    "Content Creation"
+                ],
+                "technologies": [
+                    "Facebook Ads Manager",
+                    "Hootsuite",
+                    "Canva"
+                ],
+                "Outcome": "Create effective social media campaigns that engage audiences."
+            },
+            {
+                "name": "Content Marketing Strategy",
+                "weeks": 2,
+                "Topics": [
+                    "Content Creation",
+                    "SEO Basics",
+                    "Analytics"
+                ],
+                "technologies": [
+                    "WordPress",
+                    "Google Analytics",
+                    "BuzzSumo"
+                ],
+                "Outcome": "Develop a comprehensive content marketing plan."
+            }
+        ]
+    }
+]

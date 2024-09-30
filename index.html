@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DYNAMIC | Learning Path</title>
+    <meta name="description" content="Join thousands of learners worldwide and elevate your skills today!">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7.0.6/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+    <!-- header start -->
+    <header class="header">
+        <div class="header__container container">
+            <a href="/" class="logo">
+                <img src="./assets/img/logo.svg" alt="Logo">
+            </a>
+
+            <div class="header__main">
+                <ul class="header__nav">
+                    <li class="header__nav-item header__nav-item--close">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 90" fill="none">
+                            <path
+                                d="M86.9183 28.6336C83.1318 18.9356 76.0999 10.8505 67.0206 5.75595C57.9412 0.661382 47.3763 -1.12745 37.126 0.69425C26.8756 2.51595 17.574 7.83547 10.806 15.7464C4.03805 23.6574 0.222474 33.6703 0.00942346 44.0791C-0.203627 54.4879 3.19903 64.6486 9.63761 72.8299C16.0762 81.0111 25.1523 86.7068 35.3196 88.9464C45.4868 91.1861 56.1161 89.831 65.3963 85.1123C74.6764 80.3935 82.0334 72.6029 86.2135 63.0679L85.1019 62.5806C81.0345 71.8584 73.8761 79.4389 64.8462 84.0304C55.8163 88.6219 45.4737 89.9404 35.5807 87.7612C25.6876 85.582 16.8563 80.0399 10.5914 72.0793C4.32642 64.1187 1.01553 54.232 1.22284 44.104C1.43014 33.9759 5.14281 24.233 11.7282 16.5354C18.3137 8.83781 27.3644 3.66176 37.3383 1.88919C47.3122 0.116626 57.5922 1.85721 66.4267 6.81438C75.2611 11.7716 82.1034 19.6386 85.7877 29.075L86.9183 28.6336Z"
+                                fill="" />
+                            <path
+                                d="M59.5545 57.4752C60.1485 58.0693 60.1485 58.9604 59.5545 59.5545C59.2574 59.8515 58.8119 60 58.5148 60C58.2178 60 57.7723 59.8515 57.4752 59.5545L45 47.0792L32.5248 59.5545C32.2277 59.8515 31.7822 60 31.4851 60C31.1881 60 30.7426 59.8515 30.4455 59.5545C29.8515 58.9604 29.8515 58.0693 30.4455 57.4752L42.9208 45L30.4455 32.5248C29.8515 31.9307 29.8515 31.0396 30.4455 30.4455C31.0396 29.8515 31.9307 29.8515 32.5248 30.4455L45 42.9208L57.4752 30.4455C58.0693 29.8515 58.9604 29.8515 59.5545 30.4455C60.1485 31.0396 60.1485 31.9307 59.5545 32.5248L47.0792 45L59.5545 57.4752Z"
+                                fill="" />
+                        </svg>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#courses">COURCES</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#instructors">INSTRUCTORS</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#testimonials">TESTIMONIALS</a>
+                    </li>
+                </ul>
+
+                <button class="btn btn-primary" data-modal-trigger="contact" type="button">
+                    <span>Contact Us</span>
+                </button>
+
+                <button class="btn btn-link" data-modal-trigger="signup" type="button">
+                    <span>Sign Up</span>
+                    <div class="btn-link__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10" fill="none">
+                            <path
+                                d="M3.20069 9.18619L7.36426 5.02263L7.36426 8.2065C7.36417 8.57375 7.50998 8.92599 7.7696 9.18573C8.02922 9.44548 8.38139 9.59145 8.74864 9.59153C9.11589 9.59162 9.46813 9.44581 9.72787 9.18619C9.98761 8.92657 10.1336 8.5744 10.1337 8.20715L10.1337 3.52598C10.1325 2.66946 9.79172 1.84836 9.18607 1.24271C8.58042 0.63706 7.75932 0.296288 6.9028 0.29511L2.22163 0.29511C1.85438 0.295196 1.50221 0.441168 1.24259 0.700912C0.982967 0.960656 0.837163 1.3129 0.837249 1.68014C0.837335 2.04739 0.983306 2.39956 1.24305 2.65918C1.50279 2.9188 1.85503 3.06461 2.22228 3.06452H5.40616L1.24259 7.22809C0.982927 7.48775 0.837053 7.83992 0.837053 8.20714C0.837053 8.57436 0.982928 8.92653 1.24259 9.18619C1.50225 9.44585 1.85443 9.59173 2.22164 9.59173C2.58886 9.59173 2.94103 9.44585 3.20069 9.18619Z"
+                                fill="#CCFD56" />
+                        </svg>
+                    </div>
+                </button>
+            </div>
+            <div class="header__burger">
+                <img src="./assets/img/burger.svg" alt="burger icon">
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+
+
+    <!-- main -->
+    <main>
+        <!-- hero start -->
+        <section class="hero-section">
+            <div class="hero__container container">
+                <div class="hero__inner">
+                    <h1 class="hero__title">Unlock <span>Your Potential</span> with Our Courses</h1>
+                    <p class="hero__subtitle">Join thousands of learners worldwide and elevate your skills today!</p>
+
+                    <div class="hero__inner-botttom">
+                        <div class="hero__inner-btns">
+                            <button class="btn btn-primary" data-modal-trigger="contact" type="button">
+                                <span>Learn more</span>
+                            </button>
+
+                            <button class="btn btn-link" data-modal-trigger="signup" type="button">
+                                <span>Sign Up</span>
+                                <div class="btn-link__icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10"
+                                        fill="none">
+                                        <path
+                                            d="M3.20069 9.18619L7.36426 5.02263L7.36426 8.2065C7.36417 8.57375 7.50998 8.92599 7.7696 9.18573C8.02922 9.44548 8.38139 9.59145 8.74864 9.59153C9.11589 9.59162 9.46813 9.44581 9.72787 9.18619C9.98761 8.92657 10.1336 8.5744 10.1337 8.20715L10.1337 3.52598C10.1325 2.66946 9.79172 1.84836 9.18607 1.24271C8.58042 0.63706 7.75932 0.296288 6.9028 0.29511L2.22163 0.29511C1.85438 0.295196 1.50221 0.441168 1.24259 0.700912C0.982967 0.960656 0.837163 1.3129 0.837249 1.68014C0.837335 2.04739 0.983306 2.39956 1.24305 2.65918C1.50279 2.9188 1.85503 3.06461 2.22228 3.06452H5.40616L1.24259 7.22809C0.982927 7.48775 0.837053 7.83992 0.837053 8.20714C0.837053 8.57436 0.982928 8.92653 1.24259 9.18619C1.50225 9.44585 1.85443 9.59173 2.22164 9.59173C2.58886 9.59173 2.94103 9.44585 3.20069 9.18619Z"
+                                            fill="#CCFD56" />
+                                    </svg>
+                                </div>
+                            </button>
+                        </div>
+                        <div class="hero__inner-statistics">
+                            <div class="hero__inner-statistics-item">
+                                <span class="hero__statistics-number">10,000+</span>
+                                <span class="hero__statistics-label">Happy Students</span>
+                            </div>
+                            <div class="hero__inner-statistics-item">
+                                <span class="hero__statistics-number">500+</span>
+                                <span class="hero__statistics-label">Courses Available</span>
+                            </div>
+                            <div class="hero__inner-statistics-item">
+                                <span class="hero__statistics-number">100+</span>
+                                <span class="hero__statistics-label">Countries Represented</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <img class="hero__background" src="./assets/img/girl-photo.png" alt="Girl Photo">
+            </div>
+        </section>
+        <!-- hero end -->
+
+        <!-- partners start -->
+        <section class="partners-section">
+            <div class="partners__container container">
+                <img src="./assets/img/partners/partner-1.svg" alt="Icon Partner">
+                <img src="./assets/img/partners/partner-2.svg" alt="Icon Partner">
+                <img src="./assets/img/partners/partner-3.svg" alt="Icon Partner">
+                <img src="./assets/img/partners/partner-4.svg" alt="Icon Partner">
+                <img src="./assets/img/partners/partner-5.svg" alt="Icon Partner">
+                <img src="./assets/img/partners/partner-6.svg" alt="Icon Partner">
+                <img src="./assets/img/partners/partner-7.svg" alt="Icon Partner">
+                <img src="./assets/img/partners/partner-8.svg" alt="Icon Partner">
+                <img src="./assets/img/partners/partner-9.svg" alt="Icon Partner">
+            </div>
+        </section>
+        <!-- partners end -->
+
+        <!-- services start -->
+        <section class="services" id="courses">
+            <div class="services__list">
+
+            </div>
+
+            <div class="services__wrapper-btn">
+                <button class="btn btn-primary" data-modal-trigger="contact" type="button">
+                    <span>Learn more</span>
+                    <img src="./assets/img/reload.svg" alt="Reload Icon">
+                </button>
+            </div>
+
+        </section>
+        <!-- services end -->
+
+        <!-- experts start -->
+        <section class="experts">
+            <div class="experts__container container">
+                <h2 class="big-title">Learn from Industry Experts from Around the World</h2>
+
+                <p class="experts__txt">
+                    Our instructors are seasoned professionals hailing from various countries, bringing diverse
+                    perspectives and expertise. With years of industry experience, they are dedicated to helping you
+                    succeed in your learning journey.
+                </p>
+
+                <button class="btn btn-primary" data-modal-trigger="contact" type="button">
+                    <span>Contact Us</span>
+                </button>
+            </div>
+        </section>
+        <!-- experts end -->
+
+        <!-- instructors start -->
+        <section class="instructor" id="instructors">
+            <div class="instructor__container container">
+                <h1>Meet Our <span>TOP</span> Instructors</h1>
+
+
+                <div class="instructor__list">
+                    <div class="instructors__item">
+                        <div class="instructors__item-header">
+                            <span class="instructors__item-name">John Smith</span>
+                            <span class="instructors__item-position">Senior Data Scientist</span>
+                        </div>
+                        <div class="instructors__item-image">
+                            <img src="./assets/img/instructors/instructor-1.png" alt="Photo of John Smith">
+                        </div>
+
+                        <p class="instructors__item-details">
+                            Passionate about machine learning and data analytics
+                        </p>
+                    </div>
+                    <div class="instructors__item">
+                        <div class="instructors__item-header">
+                            <span class="instructors__item-name">Emily Johnson</span>
+                            <span class="instructors__item-position">Cybersecurity Expert</span>
+                        </div>
+                        <div class="instructors__item-image">
+                            <img src="./assets/img/instructors/instructor-2.png" alt="Photo of Emily Johnson">
+                        </div>
+
+                        <p class="instructors__item-details">
+                            Specializes in ethical hacking and security protocols
+                        </p>
+                    </div>
+                    <div class="instructors__item">
+                        <div class="instructors__item-header">
+                            <span class="instructors__item-name">Michael Brown</span>
+                            <span class="instructors__item-position">Digital Marketing Specialist</span>
+                        </div>
+                        <div class="instructors__item-image">
+                            <img src="./assets/img/instructors/instructor-3.png" alt="Photo of Michael Brown">
+                        </div>
+
+                        <p class="instructors__item-details">
+                            Expert in SEO strategies and online branding
+                        </p>
+                    </div>
+                    <div class="instructors__item">
+                        <div class="instructors__item-header">
+                            <span class="instructors__item-name">Sophia Davis</span>
+                            <span class="instructors__item-position">Web Development Mentor</span>
+                        </div>
+                        <div class="instructors__item-image">
+                            <img src="./assets/img/instructors/instructor-4.png" alt="Photo of Sophia Davis">
+                        </div>
+
+                        <p class="instructors__item-details">
+                            Focused on front-end technologies
+                        </p>
+                    </div>
+                    <div class="instructors__item">
+                        <div class="instructors__item-header">
+                            <span class="instructors__item-name">David Wilson</span>
+                            <span class="instructors__item-position">Cloud Computing Consultant</span>
+                        </div>
+                        <div class="instructors__item-image">
+                            <img src="./assets/img/instructors/instructor-5.png" alt="Photo of David Wilson">
+                        </div>
+
+                        <p class="instructors__item-details">
+                            Works with AWS and Azure for enterprise solutions
+                        </p>
+                    </div>
+                    <div class="instructors__item">
+                        <div class="instructors__item-header">
+                            <span class="instructors__item-name">Olivia Martinez</span>
+                            <span class="instructors__item-position">Graphic Design Instructor</span>
+                        </div>
+                        <div class="instructors__item-image">
+                            <img src="./assets/img/instructors/instructor-6.png" alt="Photo of Olivia Martinez">
+                        </div>
+
+                        <p class="instructors__item-details">
+                            Combines creativity with digital tools to inspire learners
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- instructors end -->
+
+        <!-- contact start -->
+        <section class="contact">
+            <div class="contact__container container">
+                <div class="contact__container-inner">
+                    <h2 class="big-title">Stay in Touch with Us</h2>
+                    <p class="contact__subtitle">
+                        Join our community and keep up with the latest news, course offerings, and special events.
+                        Follow us
+                        on social media and subscribe to our newsletter for exclusive updates and resources!
+                    </p>
+
+                    <form class="contact__form" id="mail-form">
+                        <div class="contact__form-field">
+                            <input type="text" placeholder="Your email" name="email">
+                        </div>
+                        <button class="btn btn-primary" type="submit">
+                            <span>Subscribe!</span>
+                        </button>
+                    </form>
+
+                </div>
+
+
+                <img class="contact-background" src="./assets/img/contact-background.png" alt="Contact Background">
+            </div>
+        </section>
+        <!-- contact end -->
+
+        <!-- testimonials start -->
+        <section class="testimonials" id="testimonials" style="overflow-x: hidden;">
+            <div class="testimonials__container container">
+                <h1>Testimonials</h1>
+            </div>
+
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="swiper-slide__header">
+                            <div class="swiper-slide__header-icon">
+                                <img src="./assets/img/review/user-2.png" alt="User Photo">
+                            </div>
+                            <div class="swiper-slide__header-info">
+                                <span class="swiper-slide__name">Alice Thompson</span>
+                                <span class="swiper-slide__location">New York, USA</span>
+                            </div>
+                        </div>
+                        <p class="swiper-slide__review">
+                            The courses transformed my career! I gained skills that helped me land my dream job.
+                        </p>
+                        <div class="swiper-slide__rating">
+                            <img src="./assets/img/star.svg" alt="Icon Star">
+                            <img src="./assets/img/star.svg" alt="Icon Star">
+                            <img src="./assets/img/star.svg" alt="Icon Star">
+                            <img src="./assets/img/star.svg" alt="Icon Star">
+                            <img src="./assets/img/star.svg" alt="Icon Star">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-slide__header">
+                            <div class="swiper-slide__header-icon">
+                                <img src="./assets/img/review/user-3.png" alt="User Photo">
+                            </div>
+                            <div class="swiper-slide__header-info">
+                                <span class="swiper-slide__name">Emily Johnson</span>
+                                <span class="swiper-slide__location">Cybersecurity Expert</span>
+                            </div>
+                        </div>
+                        <p class="swiper-slide__review">
+                            Specializes in ethical hacking and security protocols
+                        </p>
+                        <div class="swiper-slide__rating">
+                            <img src="./assets/img/star.svg" alt="Icon Star">
+                            <img src="./assets/img/star.svg" alt="Icon Star">
+                            <img src="./assets/img/star.svg" alt="Icon Star">
+                            <img src="./assets/img/star.svg" alt="Icon Star">
+                            <img src="./assets/img/star.svg" alt="Icon Star">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-slide__header">
+                            <div class="swiper-slide__header-icon">
+                                <img src="./assets/img/review/user-4.png" alt="User Photo">
+                            </div>
+                            <div class="swiper-slide__header-info">
+                                <span class="swiper-slide__name">Mia Rodriguez</span>
+                                <span class="swiper-slide__location">Madrid, Spain</span>
+                            </div>
+                        </div>
+                        <p class="swiper-slide__review">
+                            I loved the interactive sessions and practical assignments. Truly enriching!
+                        </p>
+                        <div class="swiper-slide__rating">
+                            <img src="./assets/img/star.svg" alt="Icon Star">
+                            <img src="./assets/img/star.svg" alt="Icon Star">
+                            <img src="./assets/img/star.svg" alt="Icon Star">
+                            <img src="./assets/img/star.svg" alt="Icon Star">
+                            <img src="./assets/img/star.svg" alt="Icon Star">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-slide__header">
+                            <div class="swiper-slide__header-icon">
+                                <img src="./assets/img/review/user-5.png" alt="User Photo">
+                            </div>
+                            <div class="swiper-slide__header-info">
+                                <span class="swiper-slide__name">Noah Kim</span>
+                                <span class="swiper-slide__location">Seoul, South Korea</span>
+                            </div>
+                        </div>
+                        <p class="swiper-slide__review">
+                            A great platform for learning. The community support is unmatched.
+                        </p>
+                        <div class="swiper-slide__rating">
+                            <img src="./assets/img/star.svg" alt="Icon Star">
+                            <img src="./assets/img/star.svg" alt="Icon Star">
+                            <img src="./assets/img/star.svg" alt="Icon Star">
+                            <img src="./assets/img/star.svg" alt="Icon Star">
+                            <img src="./assets/img/star.svg" alt="Icon Star">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-slide__header">
+                            <div class="swiper-slide__header-icon">
+                                <img src="./assets/img/review/user-6.png" alt="User Photo">
+                            </div>
+                            <div class="swiper-slide__header-info">
+                                <span class="swiper-slide__name">Emma Patel</span>
+                                <span class="swiper-slide__location">London, UK</span>
+                            </div>
+                        </div>
+                        <p class="swiper-slide__review">
+                            I appreciate the flexibility of online courses. I could learn at my own pace.
+                        </p>
+                        <div class="swiper-slide__rating">
+                            <img src="./assets/img/star.svg" alt="Icon Star">
+                            <img src="./assets/img/star.svg" alt="Icon Star">
+                            <img src="./assets/img/star.svg" alt="Icon Star">
+                            <img src="./assets/img/star.svg" alt="Icon Star">
+                            <img src="./assets/img/star.svg" alt="Icon Star">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-slide__header">
+                            <div class="swiper-slide__header-icon">
+                                <img src="./assets/img/review/user-6.png" alt="User Photo">
+                            </div>
+                            <div class="swiper-slide__header-info">
+                                <span class="swiper-slide__name">Oliver Brown</span>
+                                <span class="swiper-slide__location">Sydney, Australia</span>
+                            </div>
+                        </div>
+                        <p class="swiper-slide__review">
+                            The course content was relevant and up-to-date. I feel more confident in my skills!
+                        </p>
+                        <div class="swiper-slide__rating">
+                            <img src="./assets/img/star.svg" alt="Icon Star">
+                            <img src="./assets/img/star.svg" alt="Icon Star">
+                            <img src="./assets/img/star.svg" alt="Icon Star">
+                            <img src="./assets/img/star.svg" alt="Icon Star">
+                            <img src="./assets/img/star.svg" alt="Icon Star">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </section>
+        <!-- testimonials end -->
+    </main>
+    <!-- main end -->
+
+    <!-- footer start -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="footer-top__container container">
+                <p class="footer-top__title">Empower <span>Your</span> Future</p>
+
+                <div class="footer-top__main">
+                    <div class="footer-top__left">
+                        <a href="/" class="logo">
+                            <img src="./assets/img/logo.svg" alt="Logo">
+                        </a>
+
+                        <div class="footer-top__social">
+                            <a href="#">
+                                <img src="./assets/img/social/1.svg" alt="Social Icon">
+                            </a>
+                            <a href="#">
+                                <img src="./assets/img/social/2.svg" alt="Social Icon">
+                            </a>
+                            <a href="#">
+                                <img src="./assets/img/social/3.svg" alt="Social Icon">
+                            </a>
+                            <a href="#">
+                                <img src="./assets/img/social/4.svg" alt="Social Icon">
+                            </a>
+                        </div>
+
+                        <p class="footer-top__txt">© 2024 NEXT GEN. All Rights Reserved.</p>
+                    </div>
+
+                    <div class="footer-top__right">
+                        <p>Your Path to Expertise Starts Here</p>
+
+                        <ul class="footer-top__nav">
+                            <li>
+                                <a href="">Privacy</a>
+                            </li>
+                            <li>
+                                <a href="">Policy Term & Conditions</a>
+                            </li>
+                            <li>
+                                <a href="">About us</a>
+                            </li>
+                            <li>
+                                <a href="">FAQ</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>Developed by <a href="https://garno.tech/" target="_blank">GARNO.TECH</a></p>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- modal-contact start -->
+    <div class="modal modal-form" data-modal="contact">
+        <div class="modal--form__container container">
+            <button class="modal__btn-close">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 90" fill="none">
+                    <path
+                        d="M86.9183 28.6336C83.1318 18.9356 76.0999 10.8505 67.0206 5.75595C57.9412 0.661382 47.3763 -1.12745 37.126 0.69425C26.8756 2.51595 17.574 7.83547 10.806 15.7464C4.03805 23.6574 0.222474 33.6703 0.00942346 44.0791C-0.203627 54.4879 3.19903 64.6486 9.63761 72.8299C16.0762 81.0111 25.1523 86.7068 35.3196 88.9464C45.4868 91.1861 56.1161 89.831 65.3963 85.1123C74.6764 80.3935 82.0334 72.6029 86.2135 63.0679L85.1019 62.5806C81.0345 71.8584 73.8761 79.4389 64.8462 84.0304C55.8163 88.6219 45.4737 89.9404 35.5807 87.7612C25.6876 85.582 16.8563 80.0399 10.5914 72.0793C4.32642 64.1187 1.01553 54.232 1.22284 44.104C1.43014 33.9759 5.14281 24.233 11.7282 16.5354C18.3137 8.83781 27.3644 3.66176 37.3383 1.88919C47.3122 0.116626 57.5922 1.85721 66.4267 6.81438C75.2611 11.7716 82.1034 19.6386 85.7877 29.075L86.9183 28.6336Z"
+                        fill="" />
+                    <path
+                        d="M59.5545 57.4752C60.1485 58.0693 60.1485 58.9604 59.5545 59.5545C59.2574 59.8515 58.8119 60 58.5148 60C58.2178 60 57.7723 59.8515 57.4752 59.5545L45 47.0792L32.5248 59.5545C32.2277 59.8515 31.7822 60 31.4851 60C31.1881 60 30.7426 59.8515 30.4455 59.5545C29.8515 58.9604 29.8515 58.0693 30.4455 57.4752L42.9208 45L30.4455 32.5248C29.8515 31.9307 29.8515 31.0396 30.4455 30.4455C31.0396 29.8515 31.9307 29.8515 32.5248 30.4455L45 42.9208L57.4752 30.4455C58.0693 29.8515 58.9604 29.8515 59.5545 30.4455C60.1485 31.0396 60.1485 31.9307 59.5545 32.5248L47.0792 45L59.5545 57.4752Z"
+                        fill="" />
+                </svg>
+            </button>
+            <form class="modal__form" id="contact-form" action="" method="">
+                <h2>Contact us</h2>
+
+                <div class="form__fields form__fields--contact">
+
+                    <div class="form__field">
+                        <label for="name">Your name</label>
+                        <div class="form__field-input">
+                            <input type="text" id="name" name="name" placeholder="">
+                        </div>
+
+                    </div>
+
+
+                    <div class="form__field">
+                        <label for="phone">Phone</label>
+                        <div class="form__field-input">
+                            <input type="tel" id="phone" name="phone" placeholder="" autocomplete="tel">
+                        </div>
+                    </div>
+
+
+                    <div class="form__field">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="" rows=""></textarea>
+                    </div>
+                </div>
+
+                <button class="btn btn-link" type="submit">
+                    <span>Send</span>
+                    <img src="./assets/img/arrow-right.svg" alt="Arrow Right">
+                </button>
+            </form>
+        </div>
+    </div>
+    <!-- modal-form end -->
+
+    <!-- modal-signup start -->
+    <div class="modal modal-form" data-modal="signup">
+        <div class="modal--form__container container">
+            <button class="modal__btn-close">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 90" fill="none">
+                    <path
+                        d="M86.9183 28.6336C83.1318 18.9356 76.0999 10.8505 67.0206 5.75595C57.9412 0.661382 47.3763 -1.12745 37.126 0.69425C26.8756 2.51595 17.574 7.83547 10.806 15.7464C4.03805 23.6574 0.222474 33.6703 0.00942346 44.0791C-0.203627 54.4879 3.19903 64.6486 9.63761 72.8299C16.0762 81.0111 25.1523 86.7068 35.3196 88.9464C45.4868 91.1861 56.1161 89.831 65.3963 85.1123C74.6764 80.3935 82.0334 72.6029 86.2135 63.0679L85.1019 62.5806C81.0345 71.8584 73.8761 79.4389 64.8462 84.0304C55.8163 88.6219 45.4737 89.9404 35.5807 87.7612C25.6876 85.582 16.8563 80.0399 10.5914 72.0793C4.32642 64.1187 1.01553 54.232 1.22284 44.104C1.43014 33.9759 5.14281 24.233 11.7282 16.5354C18.3137 8.83781 27.3644 3.66176 37.3383 1.88919C47.3122 0.116626 57.5922 1.85721 66.4267 6.81438C75.2611 11.7716 82.1034 19.6386 85.7877 29.075L86.9183 28.6336Z"
+                        fill="" />
+                    <path
+                        d="M59.5545 57.4752C60.1485 58.0693 60.1485 58.9604 59.5545 59.5545C59.2574 59.8515 58.8119 60 58.5148 60C58.2178 60 57.7723 59.8515 57.4752 59.5545L45 47.0792L32.5248 59.5545C32.2277 59.8515 31.7822 60 31.4851 60C31.1881 60 30.7426 59.8515 30.4455 59.5545C29.8515 58.9604 29.8515 58.0693 30.4455 57.4752L42.9208 45L30.4455 32.5248C29.8515 31.9307 29.8515 31.0396 30.4455 30.4455C31.0396 29.8515 31.9307 29.8515 32.5248 30.4455L45 42.9208L57.4752 30.4455C58.0693 29.8515 58.9604 29.8515 59.5545 30.4455C60.1485 31.0396 60.1485 31.9307 59.5545 32.5248L47.0792 45L59.5545 57.4752Z"
+                        fill="" />
+                </svg>
+            </button>
+            <form class="modal__form modal__form--signup" id="signup-form" action="" method="">
+                <h2>Sign up</h2>
+
+                <div class="form__logo">
+                    <img src="./assets/img/logo-white.svg" alt="logo white">
+                </div>
+
+                <div class="form__fields form__fields--contact">
+
+                    <div class="form__field">
+                        <label for="name">Email</label>
+                        <div class="form__field-input">
+                            <input type="email" id="email" name="email" placeholder="">
+                        </div>
+
+                    </div>
+
+
+                    <div class="form__field">
+                        <label for="phone">Password</label>
+                        <div class="form__field-input">
+                            <input type="password" id="password" name="password" placeholder="">
+                            <img src="./assets/img/form/eye.svg" alt="form icon">
+                        </div>
+                    </div>
+
+                    <div class="form__field">
+                        <label for="phone">Repeat password</label>
+                        <div class="form__field-input">
+                            <input type="password" id="confirm-password" name="confirm-password" placeholder="">
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <button class="btn btn-link" type="submit">
+                    <span>Register</span>
+                    <img src="./assets/img/arrow-right.svg" alt="Arrow Right">
+                </button>
+            </form>
+        </div>
+    </div>
+    <!-- modal-form end -->
+
+
+
+
+
+
+    <script src="https://unpkg.com/swiper@7.0.6/swiper-bundle.min.js"></script>
+    <script src="./assets/js/js-json.js"></script>
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>
