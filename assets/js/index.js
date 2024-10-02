@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
   })
   setTimeout(function() {
     AOS.refresh();
-  }, 100);
+  }, 200);
 })
 
 // modal
