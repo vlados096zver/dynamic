@@ -1,13 +1,8 @@
-document.addEventListener("DOMContentLoaded", function () {
+window.addEventListener("load", function () {
   AOS.init({
     duration: 600,
   })
-  setTimeout(function() {
-    AOS.refresh();
-    document.querySelectorAll('.aos-animate').forEach(function(element) {
-        element.style.transitionDuration = '0.6s';
-      });
-  }, 200);
+
 })
 
 // modal
