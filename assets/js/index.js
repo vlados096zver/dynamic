@@ -1,9 +1,12 @@
 document.addEventListener("DOMContentLoaded", function () {
   AOS.init({
-    duration: 800,
+    duration: 600,
   })
   setTimeout(function() {
     AOS.refresh();
+    document.querySelectorAll('.aos-animate').forEach(function(element) {
+        element.style.transitionDuration = '0.6s';
+      });
   }, 200);
 })
 
