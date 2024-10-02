@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   AOS.init({
-    duration: 600,
+    duration: 800,
   })
   setTimeout(function() {
     AOS.refresh();
